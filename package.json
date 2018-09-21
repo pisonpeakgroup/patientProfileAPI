@@ -1,0 +1,38 @@
+{
+  "name": "patientprofileapi",
+  "version": "1.0.0",
+  "description": "Patient's Personal details for record and reference purpose",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pisonpeakgroup/patientProfileAPI.git"
+  },
+  "keywords": [
+    "Express",
+    "ResfulAPI",
+    "MongoDB",
+    "Mongoose",
+    "Patient",
+    "Profile",
+    "Node",
+    "etc."
+  ],
+  "author": "Ubine M. Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pisonpeakgroup/patientProfileAPI/issues"
+  },
+  "homepage": "https://github.com/pisonpeakgroup/patientProfileAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
