@@ -32,11 +32,18 @@ mongoose.connect(dbConfig.url, {
     process.exit();
 });
 
-/* /routes
-const routes = require('.app/routes/main');
-const profile = require('.app/routes/profile.routes');
+//routes
+const routes = require('./app/routes/main');
+const profile = require('./app/routes/profile.routes');
 app.use('/', routes);
-app.use('/profiles', profile);  */
+app.use('/profiles', profile);
+
+//simple  route
+app.get('/', (req, res) => {
+    res.json('Welcome to hope page!');
+});
+app.use('/', routes);
+
 
 // listen for requests
 app.listen(5000, () => {
